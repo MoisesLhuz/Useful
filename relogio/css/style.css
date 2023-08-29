@@ -89,7 +89,7 @@ body{
 
 #container .description {
     position: absolute;    
-    top: 15%;
+    top: 5%;
     left: 10%;    
     color: white;
     font-size: 120px;
@@ -97,4 +97,23 @@ body{
     font-family: texto;    
 }
 
+.diaMesAno {
+    position: absolute;
+    top: 18%;
+    left: 18%;    
+    color: white;
+    font-size: 120px;
+    transform: rotate(-20deg); 
+    font-family: texto;    
 
+}
+
+#diaSemana {
+    position: absolute;
+    font-family: texto;    
+    top: 38%;
+    left: 20%;
+    transform: rotate(-20deg); 
+    color: #fff;
+    font-size: 100px;
+}
