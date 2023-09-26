@@ -37,8 +37,8 @@ async function buscarCidade(city) {
 function exibirDados(resultado){
 
     cidade.textContent = `Tempo em ${resultado.name}`
-    temperatura.textContent = `${parseInt(resultado.main.temp)}ºC` 
-    imgPrevisao.innerHTML = `${resultado.weather[0].icon}`
+    temperatura.textContent = `${parseInt(resultado.main.temp)}ºC`     
+    imgPrevisao.src = `https://openweathermap.org/img/wn/${resultado.weather[0].icon}.png`
     textoPrevisao.textContent = `${resultado.weather[0].description}`
 
 }
