@@ -6,6 +6,7 @@
 4-Calculadora IMC. <br>
 5-Cronômetro. <br>
 6-Tempo requisição API tempo. <br>
+7-MarioJs. <br>
 
 1-Table in JS where the user chooses the starting number and the multiplier. <br>
 2-QR Code Generation. <br>
@@ -13,6 +14,7 @@
 4-IMC Calculator. <br>
 5-Stopwatch. <br> 
 6-API request time. <br>
+7-MarioJs. <br>
 
 
 
